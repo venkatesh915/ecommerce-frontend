@@ -33,6 +33,10 @@ const Navbar = () => {
     Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
     <span className="mx-100"></span>
     Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
+    <span className="mx-100"></span>
+    Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
+    <span className="mx-100"></span>
+    Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
   </div>
 </div>
 
