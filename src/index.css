@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #FF6B00; /* BharatBazaar Orange */
+  --color-primary-dark: #E65A00;
+  --color-dark: #0F172A;
+  --color-secondary: #F8FAFC;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-sans);
+  background-color: var(--color-secondary);
+  @apply text-gray-900 dark:bg-[#0F172A] dark:text-gray-100 transition-colors duration-300 antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Base custom styles */
+@layer base {
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  .bb-container {
+    @apply max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .bb-section {
+    @apply py-12 flex flex-col gap-6;
+  }
+
+  .bb-card {
+    @apply bg-white dark:bg-slate-800 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 dark:border-slate-700;
+  }
+
+  .bb-button-primary {
+    @apply bg-[#FF6B00] hover:bg-[#E65A00] text-white font-medium rounded-xl transition-all duration-200 active:scale-95 flex items-center justify-center;
+  }
+}
+
+/* Custom scrollbar for horizontal sections */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
