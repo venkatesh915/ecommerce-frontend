@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="bg-orange-600 text-xs text-white py-1.5 font-medium tracking-wider overflow-hidden hidden sm:block">
   <div className="animate-marquee whitespace-nowrap">
     Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
-    <span className="mx-40"></span>
+    <span className="mx-60"></span>
     Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
   </div>
 </div>
