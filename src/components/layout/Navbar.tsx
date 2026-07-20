@@ -28,9 +28,13 @@ const Navbar = () => {
   return (
     <nav className="bg-[#0F172A] text-white sticky top-0 z-50 shadow-md">
       {/* Top Banner (Optional small utility bar) */}
-      <div className="bg-orange-600 text-xs text-white text-center py-1.5 font-medium tracking-wider hidden sm:block">
-        Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
-      </div>
+      <div className="bg-orange-600 text-xs text-white py-1.5 font-medium tracking-wider overflow-hidden hidden sm:block">
+  <div className="animate-marquee whitespace-nowrap">
+    Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
+    <span className="mx-40"></span>
+    Maha Dasara Sale: Up to 60% Off | HDFC Bank 10% Instant Discount
+  </div>
+</div>
 
       <div className="bb-container py-3">
         <div className="flex items-center justify-between gap-4 lg:gap-8">
