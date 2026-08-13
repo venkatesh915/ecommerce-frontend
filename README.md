@@ -141,7 +141,7 @@ frontend/
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone <My-repository-url>
 ```
 
 Go to frontend folder:
