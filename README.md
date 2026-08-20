@@ -15,7 +15,7 @@ https://ecommerce-frontend-kohl-two.vercel.app/
 
 Backend API:
 ```
-ecommerce-backend-production-b444.up.railway.app
+https://ecommerce-backend-86vx.onrender.com
 ```
 
 ---
